@@ -1,10 +1,11 @@
 import smtplib
 import datetime
 import random
+from secret import EMAIL, PASSWORD, SENDER_EMAIL
 
-my_email = "harini.9926@gmail.com"
-password = "9926@rodrigo"
-sender = "harini.2019754@iit.ac.lk"
+my_email = EMAIL
+password = PASSWORD
+sender = SENDER_EMAIL
 now = datetime.datetime.now()
 weekday = now.weekday()
 

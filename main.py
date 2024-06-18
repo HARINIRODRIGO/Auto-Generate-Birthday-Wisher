@@ -2,9 +2,9 @@ import random
 import smtplib
 import pandas
 import datetime
-
-EMAIL_ADDRESS = "harini.9926@gmail.com"
-PASSWORD = "9926@rodrigo"
+from secrets import EMAIL, PASSWORD
+EMAIL_ADDRESS = EMAIL
+PASSWORD = PASSWORD
 message = ""
 num = random.randint(1, 3)
 
